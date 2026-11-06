@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad — Bethel Radio 760 AM</title>
+  <style>
+    :root {
+      --bg-dark: #042013;
+      --card-bg: #08301e;
+      --accent: #00AB59;
+      --accent-yellow: #E5E01A;
+      --text-main: #f4f7f5;
+      --text-muted: #b5c7be;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      line-height: 1.7;
+      padding: 32px 16px 64px;
+    }
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 40px 36px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(0, 171, 89, 0.2);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      padding: 4px 14px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 8px;
+      color: #ffffff;
+    }
+    .updated {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      margin-bottom: 28px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: var(--accent);
+      margin-top: 28px;
+      margin-bottom: 10px;
+    }
+    p, li {
+      color: var(--text-main);
+      font-size: 1rem;
+      margin-bottom: 12px;
+    }
+    ul {
+      padding-left: 22px;
+      margin-bottom: 16px;
+    }
+    .highlight-box {
+      background: rgba(0, 171, 89, 0.1);
+      border-left: 4px solid var(--accent);
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    a {
+      color: var(--accent-yellow);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 36px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <span class="badge">Documento Oficial · Google Play &amp; App Store</span>
+    <h1>Política de Privacidad — Bethel Radio 760 AM</h1>
+    <p class="updated">Última actualización: Octubre de 2026 · Identificador de paquete: <code>com.bethelradio760am.app</code></p>
+
+    <div class="highlight-box">
+      <strong>Resumen transparente:</strong> La aplicación móvil <strong>Bethel Radio 760 AM</strong> es una aplicación gratuita de transmisión de radio cristiana en vivo. <strong>No recopilamos, no almacenamos en servidores propios ni vendemos datos personales de los usuarios.</strong> Tampoco mostramos publicidad de terceros ni requerimos creación de cuentas.
+    </div>
+
+    <h2>1. Responsable del servicio</h2>
+    <p>
+      Esta aplicación es operada por <strong>Bethel Radio 760 AM</strong> (sitio web oficial: <a href="https://www.bethel760.am" target="_blank" rel="noopener">https://www.bethel760.am</a>), con la finalidad de difundir programación radial cristiana en vivo las 24 horas del día.
+    </p>
+
+    <h2>2. Información que recopilamos</h2>
+    <p>
+      <strong>Ninguna información personal identificable.</strong> Nuestra aplicación no solicita nombre, correo electrónico, número de teléfono, ubicación geográfica (GPS), lista de contactos, cámara ni micrófono.
+    </p>
+    <p>
+      Toda la configuración personalizada del usuario dentro de la aplicación se guarda <strong>exclusivamente de manera local en su propio dispositivo</strong> mediante el almacenamiento interno del sistema (<code>SharedPreferences</code>):
+    </p>
+    <ul>
+      <li><strong>Mis Favoritos:</strong> Los títulos y nombres de artistas de las canciones marcadas con "Me gusta" se guardan únicamente en la memoria interna de su teléfono y nunca se transmiten a ningún servidor externo.</li>
+      <li><strong>Despertador y Temporizador:</strong> La hora configurada para el despertador o el temporizador de apagado automático se almacena localmente en su teléfono.</li>
+    </ul>
+
+    <h2>3. Conexión de red y transmisión en vivo (Streaming)</h2>
+    <p>
+      Para reproducir la señal de audio en vivo y mostrar el título, artista y carátula del programa o canción en curso, la aplicación realiza peticiones estándar HTTPS a nuestro servidor de transmisión (<code>https://radio.bethel760.am</code>). Como ocurre en cualquier conexión de Internet, el servidor de streaming recibe temporalmente la dirección IP técnica del dispositivo únicamente para entregar el flujo de audio en tiempo real, sin vincularla a ninguna identidad personal ni realizar perfiles de seguimiento.
+    </p>
+
+    <h2>4. Permisos del dispositivo utilizados y su justificación</h2>
+    <p>
+      La aplicación solicita únicamente los permisos técnicos estrictamente necesarios para ofrecer sus funciones de radio y despertador:
+    </p>
+    <ul>
+      <li><strong>Reproducción en primer plano y segundo plano (<code>FOREGROUND_SERVICE</code> y <code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code>):</strong> Permite que el usuario siga escuchando la transmisión de Bethel Radio 760 AM cuando apaga la pantalla del teléfono o utiliza otras aplicaciones, mostrando siempre una notificación multimedia visible con controles para pausar o detener el audio en cualquier momento.</li>
+      <li><strong>Alarma exacta y pantalla completa (<code>SCHEDULE_EXACT_ALARM</code>, <code>USE_EXACT_ALARM</code>, <code>USE_FULL_SCREEN_INTENT</code> y <code>RECEIVE_BOOT_COMPLETED</code>):</strong> Se utilizan exclusivamente cuando el propio usuario activa de forma voluntaria la función de <strong>Despertador</strong> integrada en la aplicación, para garantizar que la alarma suene a la hora exacta programada incluso si el dispositivo entra en reposo o se reinicia.</li>
+      <li><strong>Notificaciones (<code>POST_NOTIFICATIONS</code>):</strong> Permite mostrar el reproductor multimedia en la barra de estado y el aviso del despertador con el botón para detenerlo.</li>
+      <li><strong>Conexión a Internet y Estado de Red (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code> y <code>WAKE_LOCK</code>):</strong> Necesarios para recibir la señal de audio en vivo sin cortes cuando la pantalla se bloquea.</li>
+    </ul>
+
+    <h2>5. Enlaces a redes sociales y aplicaciones externas</h2>
+    <p>
+      La aplicación incluye botones de acceso directo hacia nuestras páginas oficiales en redes sociales (TikTok, Instagram, Facebook), nuestro sitio web (<code>bethel760.am</code>) y un botón de contacto vía WhatsApp. Al pulsar cualquiera de estos botones, se abrirá la aplicación o navegador externo correspondiente bajo la acción voluntaria del usuario. Esos servicios externos se rigen por sus propias políticas de privacidad.
+    </p>
+
+    <h2>6. Privacidad de menores</h2>
+    <p>
+      Nuestra aplicación transmite contenido familiar, musical y cristiano apto para todo público y no recopila datos personales de ningún usuario, incluidos menores de edad.
+    </p>
+
+    <h2>7. Eliminación de datos locales</h2>
+    <p>
+      Dado que no almacenamos cuentas ni datos personales en servidores, usted tiene el control total de sus datos locales (canciones favoritas y alarmas). Puede eliminarlos en cualquier momento desde la propia aplicación o desinstalando la aplicación de su dispositivo.
+    </p>
+
+    <h2>8. Contacto</h2>
+    <p>
+      Si tiene alguna consulta sobre esta Política de Privacidad o el funcionamiento de la aplicación <strong>Bethel Radio 760 AM</strong>, puede comunicarse con nosotros a través de:
+    </p>
+    <ul>
+      <li><strong>Sitio web oficial:</strong> <a href="https://www.bethel760.am" target="_blank" rel="noopener">https://www.bethel760.am</a></li>
+      <li><strong>WhatsApp de atención al oyente:</strong> +51 981 226 758</li>
+    </ul>
+
+    <footer>
+      &copy; 2026 Bethel Radio 760 AM · Todos los derechos reservados.
+    </footer>
+  </div>
+</body>
+</html>
